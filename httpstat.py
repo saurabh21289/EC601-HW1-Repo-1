@@ -40,12 +40,12 @@ curl_format = """{
 
 https_template = """
   DNS Lookup   TCP Connection   SSL Handshake   Server Processing   Content Transfer
-[   {a0000}  |     {a0001}    |    {a0002}    |      {a0003}      |      {a0004}     ]
-             |                |               |                   |                  |
-    namelookup:{b0000}        |               |                   |                  |
-                        connect:{b0001}       |                   |                  |
-                                    pretransfer:{b0002}           |                  |
-                                                      starttransfer:{b0003}          |
+[   {a0000}  *     {a0001}    *    {a0002}    *      {a0003}      *      {a0004}     ]
+             *                *               *                   *                  *
+    namelookup:{b0000}        *               *                   *                  *
+                        connect:{b0001}       *                   *                  *
+                                    pretransfer:{b0002}           *                  *
+                                                      starttransfer:{b0003}          *
                                                                                  total:{b0004}
 """[1:]
 
