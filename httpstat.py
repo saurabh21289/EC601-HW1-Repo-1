@@ -51,8 +51,8 @@ https_template = """
 
 http_template = """
   DNS Lookup   TCP Connection   Server Processing   Content Transfer
-[   {a0000}  +     {a0001}    |      {a0003}      +      {a0004}     ]
-             +                |                   +                  |
+[   {a0000}  +     {a0001}    +      {a0003}      +      {a0004}     ]
+             +                +                   +                  |
     namelookup:{b0000}        |                   +                  |
                         connect:{b0001}           +                  |
                                       starttransfer:{b0003}          |
