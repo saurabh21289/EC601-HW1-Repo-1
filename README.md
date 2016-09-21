@@ -4,7 +4,7 @@
 
 curl statistics made simple.
 
-![screenshot](screenshot.png)
+![screenshot](screenshot_new.png)
 
 
 Our update to httpstat is still a **single file🌟** Python script just like the original httpstat that has **no dependency👏** and is compatible with **Python 3🍻**. We have made simple changes to how statistics are displayed to the user. Some of the changes are displayed in the screenshot above.
