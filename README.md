@@ -12,14 +12,14 @@ Our update to httpstat is still a **single file🌟** Python script just like th
 
 ## Installation
 
-There are three ways to get `httpstat with display changes`:
+This is how to can get `httpstat with display changes`:
 
 - Download the script directly: `wget https://raw.githubusercontent.com/saurabh21289/EC601-HW1-Repo-1/master/httpstat.py`
 
 
 ## Usage
 
-Just pass a url with it:
+Pass the URL you want statistics about as a parameter to httpstats.py file
 
 ```bash
 python httpstat.py http://www.google.com
@@ -28,16 +28,4 @@ or to get the https version of the site over port 443:
 
 ```bash
 python httpstat.py https://www.google.com
-```
-
-By default it will write response body in a tempfile, but you can let it print out by setting `HTTPSTAT_SHOW_BODY=true`:
-
-```bash
-HTTPSTAT_SHOW_BODY=true python httpstat.py httpbin.org/get
-```
-
-You can still pass any curl supported arguments after the url (except for `-w`, `-D`, `-o`, `-s`, `-S` which are already used by httpstat):
-
-```bash
-HTTPSTAT_SHOW_BODY=true python httpstat.py httpbin.org/post -X POST --data-urlencode "a=中文" -v
 ```
