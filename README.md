@@ -2,7 +2,7 @@
 
 # httpstat with display changes
 
-curl statistics made simple.
+Simple cURL statistics made to look better!
 
 ![screenshot](screenshot_new.png)
 
@@ -37,4 +37,5 @@ You can see the tasks assigned as Trello Cards in the pdf file https://raw.githu
 ## Burndown Chart
 
 The Burndown Chart for HW1 Sprint is shown below:
+
 ![screenshot2](burndown.png)
