@@ -7,7 +7,7 @@ curl statistics made simple.
 ![screenshot](screenshot_new.png)
 
 
-Our update to httpstat is still a **single file🌟** Python script just like the original httpstat that has **no dependency👏** and is compatible with **Python :clap:**. We have made simple changes to how statistics are displayed to the user. Some of the changes are displayed in the screenshot above.
+Our update to httpstat is still a **single file** Python script just like the original httpstat that has **no dependency** and is compatible with **Python**. We have made simple changes to how statistics are displayed to the user. Some of the changes are displayed in the screenshot above. /play secret
 
 
 ## Installation
