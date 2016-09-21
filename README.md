@@ -29,3 +29,12 @@ or to get the https version of the site over port 443:
 ```bash
 python httpstat.py https://www.google.com
 ```
+
+## Trello Cards
+
+You can see the tasks assigned as Trello Cards in the pdf file https://raw.githubusercontent.com/saurabh21289/EC601-HW1-Repo-1/master/EC601_HW1_Trello.pdf
+
+## Burndown Chart
+
+The Burndown Chart for HW1 Sprint is shown below:
+![screenshot2](burndown.png)
